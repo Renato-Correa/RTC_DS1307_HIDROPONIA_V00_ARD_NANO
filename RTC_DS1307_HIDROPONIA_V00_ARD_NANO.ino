@@ -176,11 +176,11 @@ void iniRelay()
 void setDateTime(){
 
   byte segundo =      0;  //0-59
-  byte minuto =       24;  //0-59
-  byte hora =         8;  //0-23
-  byte diasemana =    1;  //1-7
-  byte dia =          24;  //1-31
-  byte mes =          2; //1-12
+  byte minuto =       4;  //0-59
+  byte hora =         11;  //0-23
+  byte diasemana =    4;  //1-7
+  byte dia =          2;  //1-31
+  byte mes =          3; //1-12
   byte ano  =         22; //0-99
 
   Wire.beginTransmission(DS1307_ADDRESS);
